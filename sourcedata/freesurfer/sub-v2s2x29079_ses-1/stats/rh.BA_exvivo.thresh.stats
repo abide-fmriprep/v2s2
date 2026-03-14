@@ -1,0 +1,66 @@
+# Table of FreeSurfer cortical parcellation anatomical statistics 
+# 
+# CreationTime 2026/03/13-00:46:11-GMT
+# generating_program mris_anatomical_stats
+# cvs_version 7.3.2
+# mrisurf.c-cvs_version 7.3.2
+# cmdline mris_anatomical_stats -th3 -mgz -f ../stats/rh.BA_exvivo.thresh.stats -noglobal -b -a ./rh.BA_exvivo.thresh.annot -c ./BA_exvivo.thresh.ctab sub-v2s2x29079_ses-1 rh white 
+# sysname  Linux
+# hostname dna020
+# machine  x86_64
+# user     oesteban
+# 
+# SUBJECTS_DIR /out/sourcedata/freesurfer
+# anatomy_type surface
+# subjectname sub-v2s2x29079_ses-1
+# hemi rh
+# AnnotationFile ./rh.BA_exvivo.thresh.annot
+# AnnotationFileTimeStamp 2026/03/13 01:46:02
+# Measure Cortex, NumVert, Number of Vertices, 162088, unitless
+# Measure Cortex, WhiteSurfArea, White Surface Total Area, 92819.4, mm^2
+# NTableCols 10
+# TableCol  1 ColHeader StructName
+# TableCol  1 FieldName Structure Name
+# TableCol  1 Units     NA
+# TableCol  2 ColHeader NumVert
+# TableCol  2 FieldName Number of Vertices
+# TableCol  2 Units     unitless
+# TableCol  3 ColHeader SurfArea
+# TableCol  3 FieldName Surface Area
+# TableCol  3 Units     mm^2
+# TableCol  4 ColHeader GrayVol
+# TableCol  4 FieldName Gray Matter Volume
+# TableCol  4 Units     mm^3
+# TableCol  5 ColHeader ThickAvg 
+# TableCol  5 FieldName Average Thickness
+# TableCol  5 Units     mm
+# TableCol  6 ColHeader ThickStd
+# TableCol  6 FieldName Thickness StdDev
+# TableCol  6 Units     mm 
+# TableCol  7 ColHeader MeanCurv
+# TableCol  7 FieldName Integrated Rectified Mean Curvature
+# TableCol  7 Units     mm^-1
+# TableCol  8 ColHeader GausCurv 
+# TableCol  8 FieldName Integrated Rectified Gaussian Curvature
+# TableCol  8 Units     mm^-2
+# TableCol  9 ColHeader  FoldInd
+# TableCol  9 FieldName  Folding Index 
+# TableCol  9 Units      unitless 
+# TableCol 10 ColHeader CurvInd
+# TableCol 10 FieldName Intrinsic Curvature Index
+# TableCol 10 Units     unitless
+# ColHeaders StructName NumVert SurfArea GrayVol ThickAvg ThickStd MeanCurv GausCurv FoldInd CurvInd
+BA1_exvivo                                683    371    760  1.613 0.341     0.123     0.025        7     0.8
+BA2_exvivo                               1938   1032   1899  1.777 0.483     0.080     0.015        9     1.3
+BA3a_exvivo                              1289    746    890  1.658 0.391     0.117     0.037       10     2.0
+BA3b_exvivo                              2133   1159   1800  1.557 0.426     0.082     0.019       11     1.8
+BA4a_exvivo                              1163    613   1654  2.297 0.610     0.099     0.029        7     1.5
+BA4p_exvivo                              1569    880   1590  2.029 0.480     0.108     0.028       11     2.0
+BA6_exvivo                               6469   3566   9288  2.313 0.649     0.102     0.027       43     7.5
+BA44_exvivo                              1022    586   1795  2.542 0.562     0.103     0.027        9     1.1
+BA45_exvivo                              1108    658   2012  2.446 0.599     0.117     0.036       12     1.7
+V1_exvivo                                5504   3282   7201  2.034 0.671     0.138     0.048       77    11.8
+V2_exvivo                                5271   3215   7545  2.061 0.682     0.142     0.050       68    11.5
+MT_exvivo                                 393    226    621  2.080 0.634     0.096     0.021        3     0.3
+perirhinal_exvivo                          44     24     82  2.377 0.724     0.098     0.028        0     0.0
+entorhinal_exvivo                         727    424   1624  2.599 0.906     0.085     0.022        4     0.7
